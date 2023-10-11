@@ -44,3 +44,20 @@ This project will utilize the LIPID MAPS® Structure Database (LMSD), a comprehe
   
 - **Which variables/columns may be selected as features/predictors for your ML models?**
   - The feature will also be the `smiles` columns. The model will try to predict the next character in the string.
+
+## 4. Exploratory Data Analysis (EDA)
+
+- **Handling Missing Values**: 
+  - Upon initial inspection of the dataset, a few instances of missing values were identified. A decision was made to omit these records from the dataset to maintain the integrity and quality of the analysis, ensuring that no computations were influenced by unknown or unrecorded data.
+ 
+- **Removing Duplicates**:
+  - Duplicate entries, which can introduce bias or inaccuracies in the analysis and model training, were identified and subsequently removed from the dataset. This ensures that each entry contributes a unique piece of information to the analysis and model training.
+
+- **SMILES String Canonicalization and Validation**:
+  - The lipid SMILES strings underwent a process of canonicalization, ensuring a standardized representation of the molecular structures. Following this, a validation check was conducted to confirm the viability and accuracy of the SMILES strings. Instances containing invalid SMILES were identified and omitted from the dataset, ensuring that only accurate and reliable data was utilized in subsequent analyses and model training.
+ 
+ - **Character Encoding**:
+  - To facilitate the computational handling and analysis of the SMILES strings, each unique character within the strings was mapped to a unique integer through a process of character encoding. This transformation allows for the effective utilization of SMILES string data in machine learning models, ensuring that the models can interpret and learn from the structural information contained within the strings.
+
+- **Training and Testing Split**:
+  - The dataset was divided into training and testing subsets, adhering to a 90/10 split, respectively. This approach ensures that the models are trained on a substantial portion of the data, while also reserving a distinct subset of the data for evaluating the model's predictive performance and generalization capabilities.
