@@ -55,7 +55,7 @@ This project will utilize the LIPID MAPS® Structure Database (LMSD), a comprehe
 
 - **SMILES String Canonicalization and Validation**:
   - The lipid SMILES strings underwent a process of canonicalization, ensuring a standardized representation of the molecular structures. Following this, a validation check was conducted to confirm the viability and accuracy of the SMILES strings. Instances containing invalid SMILES were identified and omitted from the dataset, ensuring that only accurate and reliable data was utilized in subsequent analyses and model training.
- 
+
 - **Character Encoding**:
   - To facilitate the computational handling and analysis of the SMILES strings, each unique character within the strings was mapped to a unique integer through a process of character encoding. This transformation allows for the effective utilization of SMILES string data in machine learning models, ensuring that the models can interpret and learn from the structural information contained within the strings.
 
