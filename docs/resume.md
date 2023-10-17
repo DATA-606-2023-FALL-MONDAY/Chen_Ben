@@ -41,7 +41,7 @@
 ---
 
 #### 💡 **Informatics, RNAimmune**  
-🗓️ *June 2023 – August 2023*  
+🗓️ *June 2023 – Now*  
 * Automated lipid nanoparticle screening
 * Engineered codon optimization model
 * Designed internal chatbot interface
