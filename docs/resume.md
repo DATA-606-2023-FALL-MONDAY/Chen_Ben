@@ -40,7 +40,7 @@
 
 ---
 
-#### 💡 **Informatics Intern, RNAimmune**  
+#### 💡 **Informatics, RNAimmune**  
 🗓️ *June 2023 – August 2023*  
 * Automated lipid nanoparticle screening
 * Engineered codon optimization model
