@@ -1,9 +1,10 @@
 ## 1. Title and Author
 
 - Project Title: Investigating the Efficacy of Language Models in Generating SMILES for Lipids
-- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+- Prepared for Fall 2023 UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Author Name: Ben Chen
 - Link to the author's GitHub profile: https://github.com/geethurb
+- Presentation slides: https://github.com/DATA-606-2023-FALL-MONDAY/Chen_Ben/blob/main/docs/DATA%20606%20Final%20Presentation.pptx
 
 ## 2. Background
 
