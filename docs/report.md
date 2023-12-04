@@ -76,3 +76,19 @@ This project will utilize the LIPID MAPS® Structure Database (LMSD), a comprehe
 - **Generation Process**:
   - The model predicts subsequent tokens sequentially, constructing the SMILES string until a stop token is reached, indicating the completion of a molecule.
 
+## 6. Results
+- **Validity**:
+  - Of the 100000 generated lipids, 97.94% were valid SMILES, demonstrating high accuracy of the model.
+
+- **Uniqueness**:
+  - Among these valid SMILES, 44.69% are unique, showing the model's capability to produce a variety of lipid structures.
+
+- **Novelty Rate**:
+  - 51.67% of the unique valid SMILES are new. 23.05% of the new SMILES are neither substrings nor superstrings of any SMILES in the training set. Highlighting the model's potential in discovering previously unknown lipids.
+ 
+- **Compare Generated Lipids to Training Lipids**:
+  - SMILES Length: Both distributions show remarkable similarity.
+  - Molecular mass: The generated lipid distribution exhibits a more pronounced higher peak, whereas the training lipid distribution features a more extensive right tail.
+  - Number of rotatable bonds: Similar to molecular mass, the generated lipid distribution displays a larger peak, while the training lipid distribution has a more substantial right tail.
+  - Tanimoto Similarity: This metric indicates that the generated lipids possess lower diversity compared to the lipids in the training set.
+
