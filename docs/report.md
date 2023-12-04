@@ -64,7 +64,12 @@ This project will utilize the LIPID MAPS® Structure Database (LMSD), a comprehe
   - The dataset was divided into training and testing subsets, adhering to a 90/10 split, respectively. This approach ensures that the models are trained on a substantial portion of the data, while also reserving a distinct subset of the data for evaluating the model's predictive performance and generalization capabilities.
 
 ## 5. Model
-- **Generative Pretrained Transformer (GPT)**: A powerful model for text generation, adept at learning complex patterns.
-- **Simplified Molecular-Input Line-Entry System (SMILES)**:A method to represent molecules with strings, widely used in chemistry.
-- **nanoGPT**: A small GPT model from https://github.com/karpathy/nanoGPT, balancing efficiency and learning capability.
+- **Generative Pretrained Transformer (GPT)**:
+  - A powerful model for text generation, adept at learning complex patterns.
+- **Simplified Molecular-Input Line-Entry System (SMILES)**:
+  - A method to represent molecules with strings, widely used in chemistry.
+- **nanoGPT**:
+  - A small GPT model from https://github.com/karpathy/nanoGPT, balancing efficiency and learning capability.
+- **Generation Process**:
+  - The model predicts subsequent tokens sequentially, constructing the SMILES string until a stop token is reached, indicating the completion of a molecule.
 
