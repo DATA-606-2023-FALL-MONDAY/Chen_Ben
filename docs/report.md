@@ -5,6 +5,7 @@
 - Author Name: Ben Chen
 - Link to the author's GitHub profile: https://github.com/geethurb
 - Presentation slides: https://github.com/DATA-606-2023-FALL-MONDAY/Chen_Ben/blob/main/docs/DATA%20606%20Final%20Presentation.pptx
+- YouTube Presentation: https://youtu.be/FX1azg9Yl2Y
 
 ## 2. Background
 
